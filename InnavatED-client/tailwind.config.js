@@ -8,11 +8,11 @@ export default {
     extend: {
       colors: {
         "first":"#0b4534",
-        "second":"#d7e0e4",
-        "third":"#a8c200",
+        "second":"#a8c200",
+        "third":"#d7e0e4",
       }
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
 
