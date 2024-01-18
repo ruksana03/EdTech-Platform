@@ -1,18 +1,17 @@
-import Lottie from 'lottie-react';
-import newsletter from '../../public/newletter.json'
+import Lottie from "lottie-react";
+import newsletter from "../../../public/newsletter.json";
 const NewsLetter = () => {
   return (
     <div className="my-20">
       <div className=" section-container py-8 md:py-12 grid place-content-center   ">
         <div className="lg:flex justify-start lg:gap-28">
           <div>
-            <h1 data-aos="fade-up" className="font-bold text-5xl text-gray-800">
+            <h1 data-aos="fade-up" className="title">
               Newsletter
             </h1>
             <p className="pt-8 md:pt-4 text-gray-600">
               Sign up for our newsletter and get weekly updates. We only send
-              emails about our latest courses once a week every
-              Friday.
+              emails about our latest courses once a week every Friday.
             </p>
             <form className="mt-8 md:flex justify-start md:gap-4">
               <input
@@ -24,7 +23,7 @@ const NewsLetter = () => {
               />
               <button
                 data-tip="subscribe now"
-                className="w-full md:w-auto bg-first text-white px-8 py-4 border rounded-md hover:bg-second tooltip  font-semibold mt-4 md:mt-0  "
+                className="w-full md:w-auto  px-8 py-4 border rounded-md btn-style  tooltip  font-semibold mt-4 md:mt-0  "
               >
                 Subscribe
               </button>
@@ -34,7 +33,7 @@ const NewsLetter = () => {
             </p>
           </div>
           <div className="pt-8 lg:pt-0">
-             <Lottie animationData={newsletter}></Lottie>
+            <Lottie animationData={newsletter} loop={true}></Lottie>
           </div>
         </div>
       </div>

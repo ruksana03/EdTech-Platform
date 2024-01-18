@@ -1,0 +1,51 @@
+[
+    {
+      "_id": "642c155b2c4774f05c36eeaa",
+      "name": "Math Fundamentals",
+      "description": "Master foundational principles of math for a solid understanding.",
+      "image": "https://i.ibb.co/t8GtKzs/math.jpg",
+      "category": "popular",
+      "price": 19.99
+    },
+    {
+      "_id": "72a8b3f9c1d28e9baf45c8d2",
+      "name": "Programming Basics",
+      "description": "Learn essential programming concepts to start your journey.",
+      "image": "https://i.ibb.co/YTKKYRs/programming.jpg",
+      "category": "popular",
+      "price": 24.99
+    },
+    {
+      "_id": "98e9a5d3c2b1f5678d3e4b90",
+      "name": "English Grammar Mastery",
+      "description": "Polish your grammar skills to enhance communication abilities.",
+      "image": "https://i.ibb.co/JCrYXjM/english.jpg",
+      "category": "popular",
+      "price": 17.99
+    },
+    {
+      "_id": "2f6754a8c3b9e6f1a087dcb7",
+      "name": "Science Explorations",
+      "description": "Embark on a journey of scientific discovery with hands-on experiments.",
+      "image": "https://i.ibb.co/qMrbx8Z/science.jpg",
+      "category": "popular",
+      "price": 29.99
+    },
+    {
+      "_id": "1d8b6c97432e5546798a2c0f",
+      "name": "Digital Marketing Essentials",
+      "description": "Unlock secrets of effective digital marketing to boost online presence.",
+      "image": "https://i.ibb.co/TW1cT1G/marketing.webp",
+      "category": "popular",
+      "price": 22.99
+    },
+    {
+      "_id": "5f34b1eaa0cd4530b6d88b9f",
+      "name": "Art and Creativity Workshop",
+      "description": "Unleash creativity through artistic expression and innovative projects.",
+      "image": "https://i.ibb.co/8DS6Q3v/art.jpg",
+      "category": "popular",
+      "price": 26.99
+    }
+  ]
+  
