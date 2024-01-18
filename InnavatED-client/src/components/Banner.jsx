@@ -1,7 +1,7 @@
 import { useTypewriter } from "react-simple-typewriter";
 const Banner = () => {
   const [typeEffect] = useTypewriter({
-    words: ["Journey","Explore", "with", "Success!"],
+    words: ["Journey", "with", "Success!"],
     loop: {},
     typeSpeed: 100,
     deleteSpeed: 50,
@@ -9,7 +9,7 @@ const Banner = () => {
 
   return (
     <div className=" min-h-[80vh] pt-12 section-container ">
-      <div className="flex flex-col-reverse md:flex-row items-center gap-8">
+      <div className="flex flex-col-reverse md:flex-row items-center   gap-12 ">
         <div className="flex-1 space-y-6">
           <h2 className="text-3xl md:text-5xl font-semibold">
           Begin Your
@@ -20,12 +20,12 @@ const Banner = () => {
             resources and expert learning solutions. Your path to learning is
             just a click away.
           </p>
-          <button className="btn btn-sm  bg-first text-white py-2 ">Get Started</button>
+          <button className="px-3 btn-style py-2 rounded-2xl">Get Started</button>
         </div>
         <div className="flex-1  ">
           <img
-            className="rounded-md w-96   "
-            src="https://i.ibb.co/XzWhnVL/Lime-Wire-AI-Studio-Asset.jpg"
+            className="rounded-md    "
+            src="https://i.ibb.co/q9mKgvN/banner1.jpg"
             alt="image"
           />
         </div>
