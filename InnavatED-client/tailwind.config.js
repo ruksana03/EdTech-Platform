@@ -7,12 +7,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        "first":"#0b4534",
-        "second":"#a8c200",
-        "third":"#d7e0e4",
+        "first": "#0b4534",
+        "second": "#a8c200",
+        "third": "#d7e0e4",
       }
     },
   },
-  plugins: [require("daisyui")],
+  plugins: [
+    require("daisyui"),
+    require('@tailwindcss/forms'),
+  ],
 }
 

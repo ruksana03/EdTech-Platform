@@ -49,7 +49,7 @@ const Contact = () => {
                 </div>
                 <div className='cols-span-12 md:col-span-8 lg:col-span-8 p-5'>
                     <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center"> Get in Touch with Us</h1>
-                    <p className='my-8 text-center'>Welcome to EduTech Platform! We're thrilled that you want to connect with us. Whether you have questions about our educational resources, need assistance with our platform, or want to explore partnership opportunities, our team to help.</p>
+                    <p className='my-8 text-center'>Welcome to EduTech Platform! Were thrilled that you want to connect with us. Whether you have questions about our educational resources, need assistance with our platform, or want to explore partnership opportunities, our team to help.</p>
                     <div className='mt-8'>
                         <form ref={form} onSubmit={sendEmail} className="w-full md:w-2/3 lg:w-2/3 mx-auto">
                             <div className="mb-6">
