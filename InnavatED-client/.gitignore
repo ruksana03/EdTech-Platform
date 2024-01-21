@@ -23,7 +23,7 @@ dist-ssr
 *.sln
 *.sw?
 
-# package-lock.json
-# vite.config.js
-# postcss.config.js
+package-lock.json
+vite.config.js
+postcss.config.js
 
