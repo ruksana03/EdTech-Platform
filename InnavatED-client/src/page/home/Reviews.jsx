@@ -24,8 +24,8 @@ const Reviews = () => {
         <h5 className="subtitle">Discover What Learners Are Saying About Their Educational Journey with Us</h5>
       </div>
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-        {reviews?.map((review) => (
-          <SwiperSlide key={review._id}>
+        {reviews?.map((review, i) => (
+          <SwiperSlide key={i}>
             <div className="mx-24 my-16 flex flex-col items-center ">
               <Rating
                 style={{ maxWidth: 180 }}

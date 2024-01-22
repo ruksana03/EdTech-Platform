@@ -1,8 +1,30 @@
 import { Link } from "react-router-dom";
 import { IoMenu } from "react-icons/io5";
 import { FaGraduationCap } from "react-icons/fa";
+import { useDispatch, useSelector } from "react-redux";
+import auth from "../firebase/firebase.config";
+import { logOut } from "../Features/Utilities";
+import { logoutUser } from "../Features/UserSlice";
+
+
 
 const Navbar = () => {
+
+  const dispatch = useDispatch();
+
+  const user = useSelector(state => state.data.user.user);
+  console.log(user);
+
+  const handleLogout = () => {
+    logOut(auth)
+    .then(()=> {
+      console.log("successfully logout ");
+      dispatch(logoutUser());
+    }).catch((error)=>{
+      console.log(error.massage);
+    })
+  }
+
   const navLinks = (
     <>
       <li className="font-medium text-base">
@@ -43,7 +65,11 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">{navLinks}</ul>
       </div>
       <div className="navbar-end">
-        <button className="btn btn-sm btn-style">Login</button>
+        {
+          user && <p>{user.name}</p>
+        }
+        {user ? <button onClick={handleLogout} className="btn btn-sm btn-style">Logout</button> : <Link to="/login"><button className="btn btn-sm btn-style">Login</button></Link>}
+
       </div>
     </div>
   );
