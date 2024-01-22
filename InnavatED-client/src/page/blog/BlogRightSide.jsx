@@ -15,7 +15,7 @@ const BlogRightSide = () => {
                 <div className='text-[14px] lg:text-xl text-white text-center'>
                     <h1>Name: <span>Sushil</span></h1>
                     <h1>Email: <span>Sushil@gmail.com</span></h1>
-                    <h1>Status: <span>active now</span></h1>
+                    <h1>Status: <span className='text-green-300'>active now</span></h1>
                 </div>
             </div>
             {/* show your blog posts  */}
@@ -82,7 +82,9 @@ const BlogRightSide = () => {
                 <h1 className='font-bold mt-5 ml-3'>Create a New Post </h1>
                 <hr />
                 <div className='flex items-center justify-center gap-5 mt-2'>
-                    <a href="/create-blog" className='ml-1 text-blue-500 hover:text-first underline'>Click Here</a>
+                    <Link to='/create-blog' className='ml-1 text-blue-500 hover:text-first underline'>
+                        Click Here
+                    </Link>
                     <Link to='/create-blog'>
                         <figure className='w-20 h-16 scale-y-150 mt-3'>
                             <img src={post} alt="post-image" className='w-full h-full' />

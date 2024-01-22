@@ -5,6 +5,9 @@ import { MdExplore } from "react-icons/md";
 const BlogSettings = () => {
     return (
         <div className=" mt-6 w-11/12 mx-auto">
+            <div>
+
+            </div>
             <div className="flex gap-2 justify-start items-center">
                 <CiSearch className="text-3xl"/>
                 <p>Search</p>
