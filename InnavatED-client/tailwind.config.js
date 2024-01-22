@@ -13,9 +13,13 @@ export default {
       }
     },
   },
+<<<<<<< HEAD
+  plugins: [require("daisyui"), require('@tailwindcss/forms'),],
+=======
   plugins: [
     require("daisyui"),
     require('@tailwindcss/forms'),
   ],
+>>>>>>> 5146f0dfd5c9f0705c25b85f6b7cf5e713d11d31
 }
 
