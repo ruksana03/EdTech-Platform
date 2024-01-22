@@ -1,51 +1,210 @@
 [
-    {
-      "_id": "642c155b2c4774f05c36eeaa",
-      "name": "Math Fundamentals",
-      "description": "Master foundational principles of math for a solid understanding.",
-      "image": "https://i.ibb.co/t8GtKzs/math.jpg",
-      "category": "popular",
-      "price": 19.99
-    },
-    {
-      "_id": "72a8b3f9c1d28e9baf45c8d2",
-      "name": "Programming Basics",
-      "description": "Learn essential programming concepts to start your journey.",
-      "image": "https://i.ibb.co/YTKKYRs/programming.jpg",
-      "category": "popular",
-      "price": 24.99
-    },
-    {
-      "_id": "98e9a5d3c2b1f5678d3e4b90",
-      "name": "English Grammar Mastery",
-      "description": "Polish your grammar skills to enhance communication abilities.",
-      "image": "https://i.ibb.co/JCrYXjM/english.jpg",
-      "category": "popular",
-      "price": 17.99
-    },
-    {
-      "_id": "2f6754a8c3b9e6f1a087dcb7",
-      "name": "Science Explorations",
-      "description": "Embark on a journey of scientific discovery with hands-on experiments.",
-      "image": "https://i.ibb.co/qMrbx8Z/science.jpg",
-      "category": "popular",
-      "price": 29.99
-    },
-    {
-      "_id": "1d8b6c97432e5546798a2c0f",
-      "name": "Digital Marketing Essentials",
-      "description": "Unlock secrets of effective digital marketing to boost online presence.",
-      "image": "https://i.ibb.co/TW1cT1G/marketing.webp",
-      "category": "popular",
-      "price": 22.99
-    },
-    {
-      "_id": "5f34b1eaa0cd4530b6d88b9f",
-      "name": "Art and Creativity Workshop",
-      "description": "Unleash creativity through artistic expression and innovative projects.",
-      "image": "https://i.ibb.co/8DS6Q3v/art.jpg",
-      "category": "popular",
-      "price": 26.99
-    }
-  ]
-  
+  {
+    "_id": "642c155b2c4774f05c36eeaa",
+    "name": "Math Fundamentals",
+    "description": "Master foundational principles of math for a solid understanding.",
+    "image": "https://i.ibb.co/t8GtKzs/math.jpg",
+    "category": "popular",
+    "price": 19.99
+  },
+  {
+    "_id": "72a8b3f9c1d28e9baf45c8d2",
+    "name": "Programming Basics",
+    "description": "Learn essential programming concepts to start your journey.",
+    "image": "https://i.ibb.co/YTKKYRs/programming.jpg",
+    "category": "popular",
+    "price": 24.99
+  },
+  {
+    "_id": "98e9a5d3c2b1f5678d3e4b90",
+    "name": "English Grammar Mastery",
+    "description": "Polish your grammar skills to enhance communication abilities.",
+    "image": "https://i.ibb.co/JCrYXjM/english.jpg",
+    "category": "popular",
+    "price": 17.99
+  },
+  {
+    "_id": "2f6754a8c3b9e6f1a087dcb7",
+    "name": "Science Explorations",
+    "description": "Embark on a journey of scientific discovery with hands-on experiments.",
+    "image": "https://i.ibb.co/qMrbx8Z/science.jpg",
+    "category": "popular",
+    "price": 29.99
+  },
+  {
+    "_id": "1d8b6c97432e5546798a2c0f",
+    "name": "Digital Marketing Essentials",
+    "description": "Unlock secrets of effective digital marketing to boost online presence.",
+    "image": "https://i.ibb.co/TW1cT1G/marketing.webp",
+    "category": "popular",
+    "price": 22.99
+  },
+  {
+    "_id": "5f34b1eaa0cd4530b6d88b9f",
+    "name": "Art and Creativity Workshop",
+    "description": "Unleash creativity through artistic expression and innovative projects.",
+    "image": "https://i.ibb.co/8DS6Q3v/art.jpg",
+    "category": "popular",
+    "price": 26.99
+  },
+  {
+    "_id": "1",
+    "name": "CodeCraft Pro",
+    "description": "Premium quality with advanced features for coding enthusiasts.",
+    "image": "https://codecraft.tv/assets/images/site/featured-image.png",
+    "category": "programming",
+    "price": 99.99
+  },
+  {
+    "_id": "2",
+    "name": "ElectroTech Toolkit",
+    "description": "Sleek design for modern electrical engineering projects.",
+    "image": "https://i.ebayimg.com/images/g/V9wAAOxyrM5TGmum/s-l640.jpg",
+    "category": "engineering",
+    "price": 59.99
+  },
+  {
+    "_id": "3",
+    "name": "Business strategy ",
+    "description": "Efficient and easy-to-use tools for business.",
+    "image": "data:image/png;base64,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",
+    "category": "business",
+    "price": 39.99
+  },
+  {
+    "_id": "4",
+    "name": "law of equity ",
+    "description": "Compact and lightweight solution for law professionals on-the-go.",
+    "image": "https://i1.sndcdn.com/artworks-sd6LZPBwdW9WcfYu-q9KDOw-t500x500.jpg",
+    "category": "law",
+    "price": 79.99
+  },
+  {
+    "_id": "5",
+    "name": "PhysicsLab Explorer",
+    "description": "Elegant design with versatile functionality for physics experiments.",
+    "image": "https://i.ibb.co/Nt6mMk0/dan-cristian-padure-h3kuh-YUCE9-A-unsplash.jpg",
+    "category": "physics",
+    "price": 69.99
+  },
+  {
+    "_id": "6",
+    "name": "green chemistry",
+    "description": "Perfect for any chemistry laboratory, a great choice for chemists.",
+    "image": "https://i.pinimg.com/564x/94/1c/c5/941cc53200081f593f4fbf6dee826740.jpg",
+    "category": "chemistry",
+    "price": 49.99
+  },
+  {
+    "_id": "7",
+    "name": "C++",
+    "description": "object oriented programming language to enhance your skills",
+    "image": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*ZpjhBs0gR5oSd3Il",
+    "category": "programming",
+    "price": 119.99
+  },
+  {
+    "_id": "8",
+    "name": "Human resource management",
+    "description": "Learn managing an organization ",
+    "image": "https://nextinnovationasia.com/blog/wp-content/uploads/2022/06/function-of-hrm.jpg",
+    "category": "business",
+    "price": 89.99
+  },
+  {
+    "_id": "9",
+    "name": "analog electronics",
+    "description": "Enhance your home with this elegant collection.",
+    "image": "https://static.wixstatic.com/media/63b06b_1fe1e138bfa840778ae895facfb1d7ad~mv2.jpg/v1/fill/w_640,h_360,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/63b06b_1fe1e138bfa840778ae895facfb1d7ad~mv2.jpg",
+    "category": "engineering",
+    "price": 59.99
+  },
+  {
+    "_id": "10",
+    "name": "web development ",
+    "description": "Smart and intuitive, simplifying your coding tasks.",
+    "image": "https://www.creativeitinstitute.com/images/course/course_1663052056.jpg",
+    "category": "programming",
+    "price": 129.99
+  },
+  {
+    "_id": "11",
+    "name": "business mathematics ",
+    "description": "Comfortable and stylish for everyday wear.",
+    "image": "https://cdn.educba.com/academy/wp-content/uploads/2015/01/Business-Mathematics.jpg",
+    "category": "business",
+    "price": 79.99
+  },
+  {
+    "_id": "12",
+    "name": "digital electronic ",
+    "description": "Create a cozy atmosphere with this essential item.",
+    "image": "https://static.javatpoint.com/tutorial/digital-electronics/images/digital-electronics.png",
+    "category": "engineering",
+    "price": 44.99
+  },
+  {
+    "_id": "13",
+    "name": "automata",
+    "description": "Stay connected with the latest technology.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1NGfbrK_MQEqhI9g74pmhmlp-IB-ECRQR6g&usqp=CAU",
+    "category": "programming",
+    "price": 109.99
+  },
+  {
+    "_id": "14",
+    "name": "Trendsetter Accessory",
+    "description": "Chic and trendy, a must-have for fashion enthusiasts.",
+    "image": "https://i.ibb.co/YPPCN0p/ha-nguy-n-Fs-VVCYcg-XG8-unsplash.jpg",
+    "category": "business",
+    "price": 69.99
+  },
+  {
+    "_id": "15",
+    "name": "Electronicmagnetic field",
+    "description": "Organize your space with this practical solution.",
+    "image": "https://intellizpress.com/image/cache/catalog/9781682516300-800x1000.jpg",
+    "category": "engineering",
+    "price": 54.99
+  },
+  {
+    "_id": "16",
+    "name": "network analysis ",
+    "description": "Experience the ultimate in audio quality.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_Hp-x3sbvdroI-8ilkuyE2-Okn6sr5-63TQ&usqp=CAU",
+    "category": "programming",
+    "price": 149.99
+  },
+  {
+    "_id": "17",
+    "name": "principle of marketing ",
+    "description": "Timeless elegance for any occasion.",
+    "image": "https://i.ibb.co/DGj9tXS/melanie-deziel-U33f-Hry-BYBU-unsplash.jpg",
+    "category": "business",
+    "price": 99.99
+  },
+  {
+    "_id": "18",
+    "name": "power electronics ",
+    "description": "Transform your living space with this statement piece.",
+    "image": "https://zephyrproject.org/wp-content/uploads/sites/38/2021/06/767_medium.jpg",
+    "category": "engineering",
+    "price": 79.99
+  },
+  {
+    "_id": "19",
+    "name": "Electronic and communication engineering ",
+    "description": "Innovative design meets practical functionality.",
+    "image": "https://www.cheggindia.com/wp-content/uploads/2023/08/ece-full-form-1.png",
+    "category": "programming",
+    "price": 119.99
+  },
+  {
+    "_id": "20",
+    "name": "constitutional law",
+    "description": "Stay on trend with this fashionable accessory.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_ewmOFTFnegXlwJl6i5Zx7_tQmaqSqPdz9g&usqp=CAU",
+    "category": "law",
+    "price": 69.99
+  }
+]
