@@ -5,7 +5,31 @@ import { imageUpload } from '../../api/getData';
 
 const BlogModal = ({ isOpen, setIsOpen }) => {
     const handleSubmit = async (e) => {
-      
+        e.preventDefault();
+        const form = e.target;
+        const image = form.image.files[0];
+        const description = form.description.value;
+        const caption = form.description.value;
+        try {
+            handleCancel();
+            const loadImage = await imageUpload(image);
+            const postData = {
+                // host_user:user?.displaName,
+                // host_email:user?.email,
+                // host_image:user?.displayUrl,
+                post_image:loadImage?.data?.url,
+                date: new Date(),
+                description,
+                caption,
+                comment:{
+                    comment_text:"very awesome!"
+                }
+            }
+            console.log(postData);
+        }
+        catch(error){
+            toast.error(error.message)
+        }
     };
     const handleCancel = () => {
         setIsOpen(false);
