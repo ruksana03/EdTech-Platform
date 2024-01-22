@@ -2,7 +2,6 @@ import sticker from '../../assets/image/blog/sticker.png'
 import post from '../../assets/image/blog/post.gif'
 import { FaSignsPost } from "react-icons/fa6";
 import person from '../../assets/image/blog/person.avif';
-import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import BlogModal from './BlogModal';
 
