@@ -21,7 +21,7 @@ const BlogRightSide = () => {
                 </div>
             </div>
             {/* show your blog posts  */}
-            <div>
+            <div className='px-4'>
                 <h1 className="flex items-center justify-start gap-2 mt-7 mb-2 ml-3 text-[18px] text-bold">Show Your Blog Posts <FaSignsPost className="text-first text-2xl" /></h1>
                 <hr />
                 <div className="w-full h-auto relative overflow-hidden my-2">

@@ -8,19 +8,17 @@ import { useEffect, useState } from "react";
 
 const PostedBlogs = () => {
     const [blogData, setBlogData] = useState([]);
-
-
     useEffect(() => {
-        fetch('../../../public/data.json')
+        fetch('../../../public/blogPost.json')
             .then(res => res.json())
             .then(data => {
                 setBlogData(data);
             })
     }, []);
 
-    console.log(blogData);
+    // console.log(blogData);
     return (
-        <div className="w-10/12 mx-auto pr-4 custom-scrollbar overflow-y-auto max-h-[80vh]">
+        <div className="w-full md:w-10/12 lg:w-10/12 mx-auto pr-4 custom-scrollbar overflow-y-auto max-h-[80vh]">
             <div>
                 {
                     blogData?.length > 0 && blogData?.map(data => 
