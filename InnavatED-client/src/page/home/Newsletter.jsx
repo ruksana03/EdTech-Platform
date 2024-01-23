@@ -2,7 +2,7 @@ import Lottie from "lottie-react";
 import newsletter from "../../../public/newsletter.json";
 const NewsLetter = () => {
   return (
-    <div className="my-20">
+    <div className="my-20 p-5">
       <div className=" section-container py-8 md:py-12 grid place-content-center   ">
         <div className="lg:flex justify-start lg:gap-28">
           <div>

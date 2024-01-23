@@ -8,9 +8,9 @@ const Banner = () => {
   });
 
   return (
-    <div className=" min-h-[80vh] pt-12 section-container ">
+    <div className=" w-full lg:min-h-[80vh] h-auto pt-8 section-container ">
       <div className="flex flex-col-reverse md:flex-row items-center   gap-12 ">
-        <div className="flex-1 space-y-6">
+        <div className="flex-1 space-y-6 p-5">
           <h2 className="text-3xl md:text-5xl font-semibold">
           Begin Your
             <span className="font-bold   text-first ml-2">{typeEffect}</span>
