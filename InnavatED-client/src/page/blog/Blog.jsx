@@ -18,7 +18,7 @@ const Blog = () => {
         <div className="section-container grid grid-cols-12 gap-4 w-11/12 mx-auto">
             <div className="col-span-0 md:col-span-0 lg:col-span-1">
                 <BsThreeDotsVertical onClick={handleClick} className="block text-black lg:hidden text-3xl mt-2 cursor-pointer dark:bg-zinc-800 dark:text-gray-400" />
-                <div className={`w-[250px] z-10 h-[100vh]  md:h-[93vh] md:mt-[7%] fixed bg-blue-50 dark:bg-zinc-800 dark:text-gray-400 inset-0 transition-all duration-200 ${active && '-translate-x-full bg-white'}`}>
+                <div className={`w-[250px] z-10 h-[100vh]  md:h-[94vh] md:mt-[7%] fixed bg-blue-50 dark:bg-zinc-800 dark:text-gray-400 inset-0 transition-all duration-200 ${active && '-translate-x-full bg-white'}`}>
                     <button onClick={handleClick} className=" hover:text-red-600 text-black absolute right-0 top-0 pr-2 pt-1 dark:text-gray-400">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" /></svg>
                     </button>
