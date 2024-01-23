@@ -40,7 +40,7 @@ const Popular = () => {
 
   // handle side effects
   useEffect(() => {
-    fetch("/course.json")
+    fetch("http://localhost:5000/courses")
       .then((res) => res.json())
       .then((data) => {
         const specials = data.filter((item) => item.category === "popular");
