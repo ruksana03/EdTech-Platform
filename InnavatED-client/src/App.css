@@ -4,7 +4,7 @@ body {
 }
 .section-container {
   /* @apply max-w-screen-xl mx-auto px-4 md:px-8 lg:px-16 */
-  @apply lg:max-w-[1920px] h-auto mx-auto xl:px-40 w-full mt-[66px]
+  @apply lg:max-w-[1920px] h-auto mx-auto xl:px-40 w-full
 }
 .title{
   @apply text-2xl md:text-3xl lg:text-4xl font-bold leading-snug
