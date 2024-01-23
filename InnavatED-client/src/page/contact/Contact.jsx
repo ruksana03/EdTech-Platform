@@ -29,7 +29,7 @@ const Contact = () => {
                 <img src={contactImage} alt="contact-image" className='w-full h-full' />
             </figure>
             {/* form  */}
-            <div className='grid grid-cols-1 md:grid-cols-12 lg:grid-cols-12 gap-10 items-center justify-center w-full my-20 section-container px-10'>
+            <div className='grid grid-cols-1 md:grid-cols-12 lg:grid-cols-12 gap-10 items-center justify-center w-full my-20 section-container px-10 bg-white dark:bg-zinc-800 dark:text-gray-400'>
                 <div className='cols-span-12 md:col-span-4 lg:col-span-4 p-5'>
                     <div>
                         <h1 className='text-2xl md:text-3xl lg:text-4xl font-bold text-start mb-1'>Address:</h1>
@@ -59,7 +59,7 @@ const Contact = () => {
                                     </label>
                                 </div>
                                 <div className="md:w-full mt-2">
-                                    <input className="bg-gray-200 text-[17px] appearance-none input border-2 border-gray-200 rounded w-full py-4 px-4  leading-tight focus:outline-none focus:bg-white focus:border-first" id="inline-full-name" name='from_name' type="text" placeholder="Name" required />
+                                    <input className="bg-gray-200 dark:bg-zinc-600 text-[17px] appearance-none input border-2 border-gray-200 rounded w-full py-4 px-4  leading-tight focus:outline-none focus:bg-white focus:border-first" id="inline-full-name" name='from_name' type="text" placeholder="Name" required />
                                 </div>
                             </div>
                             <div className="mb-6">
@@ -69,7 +69,7 @@ const Contact = () => {
                                     </label>
                                 </div>
                                 <div className=" md:w-full mt-2">
-                                    <input className="bg-gray-200 appearance-none input border-2 text-[17px] border-gray-200 rounded w-full py-4 px-4  leading-tight focus:outline-none focus:bg-white focus:border-first" id="inline-password" name='from_email' type="email" placeholder='Email' required />
+                                    <input className="bg-gray-200 dark:bg-zinc-600 appearance-none input border-2 text-[17px] border-gray-200 rounded w-full py-4 px-4  leading-tight focus:outline-none focus:bg-white focus:border-first" id="inline-password" name='from_email' type="email" placeholder='Email' required />
                                 </div>
                             </div>
                             <div className="mb-6">
@@ -79,7 +79,8 @@ const Contact = () => {
                                     </label>
                                 </div>
                                 <div className="md:w-full mt-2">
-                                    <input className="bg-gray-200 appearance-none input border-2 border-gray-200 rounded w-full py-4 px-4  leading-tight focus:outline-none text-[17px] focus:bg-white focus:border-first" id="inline-password" name='from_phone' type="number" placeholder='Phone Number' required />
+                                    <input className="bg-gray-200
+                                    dark:bg-zinc-600 appearance-none input border-2 border-gray-200 rounded w-full py-4 px-4  leading-tight focus:outline-none text-[17px] focus:bg-white focus:border-first" id="inline-password" name='from_phone' type="number" placeholder='Phone Number' required />
                                 </div>
                             </div>
                             <div className="mb-6">
@@ -89,7 +90,7 @@ const Contact = () => {
                                     </label>
                                 </div>
                                 <div className="md:w-full mt-2 ">
-                                    <textarea className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full h-32 py-2 text-[17px] px-4  leading-tight focus:outline-none focus:bg-white focus:border-first" name='message' type="text" placeholder='Message' required >
+                                    <textarea className="bg-gray-200 dark:bg-zinc-600 appearance-none border-2 border-gray-200 rounded w-full h-32 py-2 text-[17px] px-4  leading-tight focus:outline-none focus:bg-white focus:border-first" name='message' type="text" placeholder='Message' required >
                                     </textarea>
                                 </div>
                             </div>

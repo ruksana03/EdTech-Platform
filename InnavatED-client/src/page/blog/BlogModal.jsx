@@ -44,11 +44,11 @@ const BlogModal = ({ isOpen, setIsOpen }) => {
                         </div>
                         <div className="flex flex-col gap-3">
                             <label className="text-xl font-bold" htmlFor="description">Caption*</label>
-                            <input className="bg-gray-200 appearance-none input border-2 text-[17px] border-gray-200 rounded w-full py-4 px-4  leading-tight focus:outline-none focus:bg-white focus:border-first" name='caption' type="text" placeholder='Enter Your Caption....' required />
+                            <input className="bg-gray-200 dark:text-gray-400 dark:bg-zinc-700 appearance-none input border-2 text-[17px] border-gray-200 rounded w-full py-4 px-4 leading-tight focus:outline-none focus:bg-white focus:border-first" name='caption' type="text" placeholder='Enter Your Caption....' required />
                         </div>
                         <div className="flex flex-col gap-3">
                             <label className="text-xl font-bold" htmlFor="description">Short Description*</label>
-                            <textarea name="description" className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full h-32 py-2 text-[17px] px-4  leading-tight focus:outline-none focus:bg-white focus:border-first" placeholder='short description....' required ></textarea>
+                            <textarea name="description" className="bg-gray-200 dark:text-gray-400 dark:bg-zinc-700 appearance-none border-2 border-gray-200 dark:border rounded w-full h-32 py-2 text-[17px] px-4 leading-tight dark:focus:border-first focus:bg-white focus:border-first" placeholder='short description....' required ></textarea>
                         </div>
                         <div className="flex items-end justify-end mt-3 gap-3">
                             <button onClick={handleCancel} className="btn bg-red-600 text-white hover:text-red-600">Cancel</button>

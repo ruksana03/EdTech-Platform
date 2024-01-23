@@ -21,7 +21,7 @@ const BlogRightSide = () => {
                 </div>
             </div>
             {/* show your blog posts  */}
-            <div className='px-4'>
+            <div className='px-4 dark:text-gray-400'>
                 <h1 className="flex items-center justify-start gap-2 mt-7 mb-2 ml-3 text-[18px] text-bold">Show Your Blog Posts <FaSignsPost className="text-first text-2xl" /></h1>
                 <hr />
                 <div className="w-full h-auto relative overflow-hidden my-2">
@@ -83,7 +83,7 @@ const BlogRightSide = () => {
             <div>
                 <h1 className='font-bold mt-5 ml-3'>Create a New Post </h1>
                 <hr />
-                <div className='flex items-center justify-center gap-5 mt-2'>
+                <div className='flex items-center justify-center gap-5 mt-2 '>
                     <button onClick={() => setIsOpen(!isOpen)}
                         className="text-blue-600 transition border-b-2 border-blue-600 font-medium hover:border-b-first cursor-pointer hover:text-first"
                     >
@@ -96,7 +96,7 @@ const BlogRightSide = () => {
                 </div>
             </div>
             {/* other more  */}
-            <div className='ml-3'>
+            <div className='ml-3 dark:text-gray-400'>
                 <h1 className='ml-3 font-bold'>Other Blogger...</h1>
                 <div className='mt-3 space-y-2'>
                     <div className='flex items-center justify-start gap-3'>

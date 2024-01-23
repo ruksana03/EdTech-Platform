@@ -22,7 +22,7 @@ const PostedBlogs = () => {
             <div>
                 {
                     blogData?.length > 0 && blogData?.map(data => 
-                    <div key={data?.id}>
+                    <div key={data?.id} className=" dark:text-gray-300">
                         <div className="flex gap-2 justify-start items-center">
                             <img className="h-12 w-12 my-2 rounded-full border border-[#0B4534] p-1" src={data?.post_image} alt="blog-image" />
                             <p className="text-xs font-medium">{data?.host_user}</p>
