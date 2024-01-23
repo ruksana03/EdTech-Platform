@@ -1,15 +1,11 @@
-import { Outlet } from "react-router-dom";
-import Navber from "../components/Navber";
-import Footer from "../components/Footer";
 import "../App.css";
+import Header from "../components/header/Header";
+import Footer from './../components/Footer';
 
 const MainLayout = () => {
   return (
     <div>
-      <Navber />
-      <div className="min-h-screen">
-        <Outlet />
-      </div>
+      <Header />
       <Footer />
     </div>
   );
