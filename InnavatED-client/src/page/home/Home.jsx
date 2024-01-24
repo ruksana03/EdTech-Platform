@@ -1,4 +1,5 @@
 import Banner from "../../components/Banner";
+import About from "./About";
 import NewsLetter from "./Newsletter";
 import Popular from "./Popular";
 import Reviews from "./Reviews";
@@ -9,7 +10,8 @@ const Home = () => {
     <div >
       <Banner />
       <Popular />
-      <Reviews/>
+      <Reviews />
+      <About/>
       <NewsLetter/>
     </div>
   );
