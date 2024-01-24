@@ -14,7 +14,9 @@ const About = () => {
           <div className="w-full lg:w-6/12">
             <h2 className="w-full title">Meet the Team Behind InnavatED</h2>
             <p className="font-normal text-base leading-6 text-gray-600  ">
-            Explore the narrative, vision, and individuals steering our mission to transform education through cutting-edge technology. Dive into the journey and vibrant community that is shaping the future of learning.
+              Discover the story, vision, and people driving our mission to
+              revolutionize on education through technology. Learn about the
+              journey and the community shaping the future of learning
             </p>
           </div>
           <div className="w-full lg:w-6/12">
@@ -114,7 +116,7 @@ const About = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 lg:gap-12 gap-10">
               <div className="flex p-4 shadow-md">
                 <div className="mr-6">
-                  <FaUsersCog className="text-first"/>
+                  <FaUsersCog className="text-first" />
                 </div>
                 <div className="">
                   <p className="subtitle ">Our Team</p>
