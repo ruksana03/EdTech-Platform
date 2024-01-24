@@ -7,6 +7,7 @@ import Contact from "../page/contact/Contact";
 import Courses from "../page/courses/Courses";
 import DashboardLayout from "../layout/DashboardLayout";
 import JoiningTeacher from "../page/Joining  teacher/JoiningTeacher";
+import Dashboard from "../components/dashboard/Dashboard";
 
 const router = createBrowserRouter([
     {
@@ -40,10 +41,10 @@ const router = createBrowserRouter([
         path:'/dashboard',
         element: <DashboardLayout />,
         children: [
-            // {
-            //     index: true,
-            //     element: 
-            // },
+            {
+                index: true,
+                element: <Dashboard />
+            },
         ]
     }
 ])
