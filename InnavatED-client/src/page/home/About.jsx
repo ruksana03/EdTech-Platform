@@ -15,7 +15,7 @@ const About = () => {
             <h2 className="w-full title">Meet the Team Behind InnavatED</h2>
             <p className="font-normal text-base leading-6 text-gray-600  ">
               Discover the story, vision, and people driving our mission to
-              revolutionize education through technology. Learn about the
+              revolutionize on education through technology. Learn about the
               journey and the community shaping the future of learning.
             </p>
           </div>
