@@ -2,7 +2,7 @@ import { useState } from "react";
 import { RxCross1 } from "react-icons/rx";
 import { SiBookstack } from "react-icons/si";
 import { FiShoppingCart, FiSun } from "react-icons/fi";
-import { MdAssignmentAdd, MdBookmarks, MdOutlineDarkMode } from "react-icons/md";
+import { MdAssignmentAdd, MdBookmarks, MdOutlineDarkMode, MdOutlineDashboardCustomize } from "react-icons/md";
 import { GiArchiveResearch } from "react-icons/gi";
 import { GrNotes } from "react-icons/gr";
 import { IoMdSettings } from "react-icons/io";
@@ -12,14 +12,12 @@ import { ImLab } from "react-icons/im";
 import DmanuList from "../components/dashboard/dashboard menulist/DmanuList";
 import { Link, Outlet } from "react-router-dom";
 import { FaGraduationCap } from "react-icons/fa";
-import GeneralProfile from "../components/dashboard/general profile/GeneralProfile";
 import useTheme from "../components/hooks/useTheme";
 
 
 
 const DashboardLayout = () => {
     const [isActive, setIsActive] = useState(false);
-    let [isOpen, setIsOpen] = useState(false);
     const { changeTheme, mode } = useTheme()
 
     const handleReverse = () => {
@@ -43,6 +41,7 @@ const DashboardLayout = () => {
                             {
                                 isActive ? <RxCross1 onClick={handleReverse} className="absolute right-2 top-3 text-black text-2xl cursor-pointer block md:hidden lg:hidden" /> : ''
                             }
+                            <DmanuList address={'dashboard'} linkTitle={'Dashboard'} icon={MdOutlineDashboardCustomize} />
                             <DmanuList address={'my-class'} linkTitle={'My Class'} icon={SiBookstack} />
                             <DmanuList address={'research'} linkTitle={'Research'} icon={GiArchiveResearch} />
                             <DmanuList address={'assignment'} linkTitle={'Assignment'} icon={MdAssignmentAdd} />
@@ -64,12 +63,19 @@ const DashboardLayout = () => {
                     </button>
                     <button><IoMdSettings className="text-2xl" /></button>
                     <button><HiMiniBellAlert className="text-2xl" /></button>
-                    <GeneralProfile isOpen={isOpen} setIsOpen={setIsOpen} />
-                    <div onClick={() => setIsOpen(!isOpen)} className="avatar">
-                        <div className="w-12">
-                            <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" className="w-full rounded-full" />
-                        </div>
-                    </div>
+                    <details className="dropdown">
+                        <summary className="m-1">
+                            <div className="avatar">
+                                <div className="w-12">
+                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" className="w-full rounded-full" />
+                                </div>
+                            </div>
+                        </summary>
+                        <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52 relative -right-2">
+                            <li><a>Item 1</a></li>
+                            <li><a>Item 2</a></li>
+                        </ul>
+                    </details>
                 </div>
             </div>
             <div className={`bg-[#f1f5f9] dark:bg-zinc-800 dark:text-gray-400 w-full h-screen ${isActive ? ' md:ml-[250px] md:w-[calc(100%-250px)] lg:ml-[48px] lg:w-[calc(100%-48px)] transition-all duration-200 ' : 'ml-[48px] w-[calc(100%-48px)] md:ml-[48px] md:w-[calc(100%-48px)] lg:ml-[250px] lg:w-[calc(100%-250px)]'}`}>
