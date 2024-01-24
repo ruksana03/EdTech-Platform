@@ -32,7 +32,7 @@ const router = createBrowserRouter([
                 element:<Contact />
             },
             {
-                path: 'join',
+                path: 'join-teacher',
                 element:<JoiningTeacher />
             },
         ]

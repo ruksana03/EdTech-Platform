@@ -23,9 +23,9 @@ const Contact = () => {
             });
     };
     return (
-        <div className='section-container'>
+        <div className='section-container '>
             {/* banner */}
-            <figure className='w-full h-[45vh]'>
+            <figure className='w-full h-[50vh]'>
                 <img src={contactImage} alt="contact-image" className='w-full h-full' />
             </figure>
             {/* form  */}

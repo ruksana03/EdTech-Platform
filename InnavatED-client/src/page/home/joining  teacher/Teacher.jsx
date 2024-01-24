@@ -23,7 +23,7 @@ const Teacher = () => {
                     <div className='w-1/2 h-full p-7 space-y-3  flex items-start justify-center flex-col text-white dark:text-gray-400'>
                         <h1 className='text-2xl'>Become a Partner</h1>
                         <p> Do you want to join our organization as an associate? Confirm your request by clicking the button below.</p>
-                        <button onClick={handlePartApply} className="text-[18px] font-medium px-4 py-2 duration-200 transform bg-first text-white  dark:text-gray-400 hover:bg-transparent hover:text-green-500 rounded hover:-translate-y-[2px] transition-all ease-in hover:border-2 border-2 border-first hover:border-first hover:scale-100 hover:dark:text-gray-400 flex items-center gap-2"><FaArrowsLeftRight className="text-2xl" />Apply Now</button>
+                        <button onClick={handlePartApply} className="text-[18px] font-medium px-4 py-2 duration-200 transform bg-first text-white  dark:text-gray-400 hover:bg-transparent hover:text-green-500 rounded hover:-translate-y-[2px] transition-all ease-in hover:border-2 border-2 border-first hover:border-first hover:scale-100 hover:dark:text-gray-400 flex items-center gap-2"><FaArrowsLeftRight className="text-2xl hidden md:block lg:block" />Apply Now</button>
                     </div>
 
                 </div>
@@ -35,7 +35,7 @@ const Teacher = () => {
                         <h1 className='text-2xl '>Become a Partner</h1>
                         <p>Do you want to join our organization? confirm your request by clicking the button below.</p>
                        <Link to="/join-teacher">
-                       <button className="text-[18px] font-medium px-4 py-2 duration-200 transform bg-first text-white dark:text-gray-400 hover:bg-transparent hover:text-green-500 rounded hover:-translate-y-[2px] transition-all ease-in hover:border-2 border-2 border-first hover:border-first hover:scale-100 hover:dark:text-gray-400 flex items-center gap-2"><FaArrowsLeftRight className="text-2xl" />Get Start</button>
+                       <button className="text-[18px] font-medium px-4 py-2 duration-200 transform bg-first text-white dark:text-gray-400 hover:bg-transparent hover:text-green-500 rounded hover:-translate-y-[2px] transition-all ease-in hover:border-2 border-2 border-first hover:border-first hover:scale-100 hover:dark:text-gray-400 flex items-center gap-2"><FaArrowsLeftRight className="text-2xl hidden md:block lg:block" />Get Start</button>
                        </Link>
                     </div>
                 </div>
