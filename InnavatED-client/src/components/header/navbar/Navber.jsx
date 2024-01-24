@@ -77,8 +77,8 @@ const Navbar = ({ children }) => {
             <div className="px-2 mx-2">
               <Link to="/">
                 <article className="font-bold flex items-center dark:text-gray-400 text-black  ">
-                  <FaGraduationCap className="text-2xl text-first mr-1 " />
-                  Innavate <span className="text-first">ED</span>
+                  <FaGraduationCap className="text-2xl dark:text-green-500 text-first mr-1 " />
+                  Innavate <span className="dark:text-green-500 text-first">ED</span>
                 </article>
               </Link>
             </div>
@@ -95,7 +95,7 @@ const Navbar = ({ children }) => {
                     </div>
                   </div>
                   <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 text-black rounded-box w-44 relative right-1">
-                    <li><Link to='/dashboard' className="text-[18px] font-medium px-4 py-2 duration-200 transform text-black hover:bg-transparent hover:text-red-500 rounded hover:-translate-y-[2px] transition-all ease-in hover:scale-100">Dashboard</Link> </li>
+                    <li><Link to='/dashboard' className="text-[18px] font-medium px-4 py-2 duration-200 transform text-black hover:bg-transparent hover:text-first rounded hover:-translate-y-[2px] transition-all ease-in hover:scale-100">Dashboard</Link> </li>
                     <li><button className="text-[18px] font-medium px-4 py-2 duration-200 transform text-black hover:bg-transparent hover:text-red-500 rounded hover:-translate-y-[2px] transition-all ease-in hover:scale-100">Logout</button></li>
                   </ul>
                 </div>
@@ -109,7 +109,7 @@ const Navbar = ({ children }) => {
                       mode === "dark" ? <FiSun className="w-8 h-8 text-white" /> : <MdOutlineDarkMode className="w-8 h-8 text-black" />
                     }
                   </button>
-                  <button className="text-[18px] font-medium px-4 py-2 duration-200 transform bg-first text-white hover:bg-transparent hover:text-first rounded hover:-translate-y-[2px] transition-all ease-in hover:scale-100">Login</button>
+                  <button className="text-[18px] font-medium px-4 py-2 duration-200 transform bg-first text-white hover:bg-transparent hover:text-first rounded hover:-translate-y-[2px] transition-all ease-in hover:scale-100 hover:dark:text-gray-400">Login</button>
                   {/* </>
                   } */}
                 </div>

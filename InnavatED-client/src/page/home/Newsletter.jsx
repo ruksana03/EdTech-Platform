@@ -9,7 +9,7 @@ const NewsLetter = () => {
             <h1 data-aos="fade-up" className="title">
               Newsletter
             </h1>
-            <p className="pt-8 md:pt-4 text-gray-600">
+            <p className="pt-8 md:pt-4 dark:text-gray-400 text-gray-600">
               Sign up for our newsletter and get weekly updates. We only send
               emails about our latest courses once a week every Friday.
             </p>
@@ -28,7 +28,7 @@ const NewsLetter = () => {
                 Subscribe
               </button>
             </form>
-            <p className="pt-4 text-xs text-gray-600">
+            <p className="pt-4 text-xs text-gray-600 dark:text-gray-400">
               Read our privacy policy
             </p>
           </div>
