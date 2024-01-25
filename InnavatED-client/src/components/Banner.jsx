@@ -9,11 +9,11 @@ const Banner = () => {
 
   return (
     <div className=" w-full lg:min-h-[80vh] h-auto pt-8 section-container ">
-      <div className="flex flex-col-reverse md:flex-row items-center   gap-12 ">
+      <div className="flex flex-col-reverse md:flex-row items-center dark:text-gray-400 gap-12 ">
         <div className="flex-1 space-y-6 p-5">
           <h2 className="text-3xl md:text-5xl font-semibold">
           Begin Your
-            <span className="font-bold   text-first ml-2">{typeEffect}</span>
+            <span className="font-bold dark:text-green-500 text-first ml-2">{typeEffect}</span>
           </h2>
           <p className="text-lg">
             Unlock a world of knowledge with our diverse range of educational

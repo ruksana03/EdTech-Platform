@@ -88,9 +88,9 @@ const Popular = () => {
   };
 
   return (
-    <div className="section-container my-20 relative p-5">
+    <div className="section-container my-20 relative p-5 dark:text-gray-400">
       <div className="text-left">
-        <h2 className="subtitle">Top Courses</h2>
+        <h2 className="subtitle dark:text-green-600">Top Courses</h2>
         <h2 className="title">Explore our Popular Courses </h2>
       </div>
 
