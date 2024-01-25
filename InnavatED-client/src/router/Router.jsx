@@ -6,8 +6,9 @@ import Blog from "../page/blog/Blog";
 import Contact from "../page/contact/Contact";
 import Courses from "../page/courses/Courses";
 import DashboardLayout from "../layout/DashboardLayout";
-import JoiningTeacher from "../page/Joining  teacher/JoiningTeacher";
+import JoiningTeacher from "../page/home/joining  teacher/JoiningTeacher";
 import Dashboard from "../components/dashboard/Dashboard";
+import MyClass from "../components/dashboard/my class/MyClass";
 
 const router = createBrowserRouter([
     {
@@ -32,7 +33,7 @@ const router = createBrowserRouter([
                 element:<Contact />
             },
             {
-                path: 'join',
+                path: 'join-teacher',
                 element:<JoiningTeacher />
             },
         ]
@@ -42,8 +43,13 @@ const router = createBrowserRouter([
         element: <DashboardLayout />,
         children: [
             {
-                index: true,
+                path:'dashboard',
+                // index: true,
                 element: <Dashboard />
+            },
+            {
+                path:'my-class',
+                element: <MyClass />
             },
         ]
     }
