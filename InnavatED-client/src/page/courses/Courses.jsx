@@ -110,12 +110,12 @@ const Courses = () => {
             "url(https://i.ibb.co/z6Fz8Z2/jess-bailey-Bg14l3h-SAs-A-unsplash.jpg)",
         }}
       >
-        <div className="hero-overlay bg-white bg-opacity-20"></div>
+        <div className="hero-overlay bg-white  bg-opacity-20"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="space-y-7 ">
             <h2 className="text-xl md:text-3xl lg:text-4xl font-bold leading-snug text-black">
               Explore the Wonders Of
-              <span className="text-first"> Enlightening Courses!</span>
+              <span className="text-first dark:text-green-500"> Enlightening Courses!</span>
             </h2>
             <p className="text-black">
               Where Every Lesson Unfolds a Tale of Academic Excellence and
@@ -139,7 +139,7 @@ const Courses = () => {
         {/* btns and sorts */}
         <div className="flex flex-col md:flex-row space-y-3 md:justify-between items-center">
           {/* all category data */}
-          <div className="flex justify-start items-center gap-8 flex-wrap font-medium my-3">
+          <div className="flex justify-start items-center gap-8 flex-wrap dark:text-gray-400 font-medium my-3">
             <button
               onClick={showAll}
               className={selectCategory === "all" ? "active" : ""}

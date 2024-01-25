@@ -23,9 +23,9 @@ const Contact = () => {
             });
     };
     return (
-        <div className='section-container'>
+        <div className='section-container '>
             {/* banner */}
-            <figure className='w-full h-[45vh]'>
+            <figure className='w-full h-[50vh]'>
                 <img src={contactImage} alt="contact-image" className='w-full h-full' />
             </figure>
             {/* form  */}
@@ -80,7 +80,7 @@ const Contact = () => {
                                 </div>
                                 <div className="md:w-full mt-2">
                                     <input className="bg-gray-200
-                                    dark:bg-zinc-600 appearance-none input border-2 border-gray-200 rounded w-full py-4 px-4  leading-tight focus:outline-none text-[17px] focus:bg-white focus:border-first" id="inline-password" name='from_phone' type="number" placeholder='Phone Number' required />
+                                    dark:bg-zinc-800 appearance-none input border-2 border-gray-200 rounded w-full py-4 px-4  leading-tight focus:outline-none text-[17px] focus:bg-white focus:border-first" id="inline-password" name='from_phone' type="number" placeholder='Phone Number' required />
                                 </div>
                             </div>
                             <div className="mb-6">
